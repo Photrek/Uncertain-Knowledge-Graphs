@@ -1,0 +1,24 @@
+NO.,Disease,Medication,Probability
+2,Arthritis,Antidepressants,0.42
+8,Arthritis,Anti-inflammatory Drugs,0.75
+21,Arthritis,Insulin,0.72
+4,Asthma,Antibiotics,0.83
+9,Asthma,Antidepressants,0.52
+22,Asthma,Anti-inflammatory Drugs,0.63
+17,Asthma,Insulin,0.62
+14,Asthma,Painkillers,0.79
+13,Depression,Antibiotics,0.58
+18,Depression,Anti-inflammatory Drugs,0.74
+3,Depression,Insulin,0.61
+10,Depression,Painkillers,0.66
+15,Diabetes,Antibiotics,0.61
+20,Diabetes,Antidepressants,0.68
+25,Diabetes,Anti-inflammatory Drugs,0.65
+7,Diabetes,Insulin,0.88
+1,Diabetes,Painkillers,0.75
+16,Headache,Antidepressants,0.47
+6,Headache,Painkillers,0.69
+24,Hypertension,Antibiotics,0.77
+5,Hypertension,Antidepressants,0.57
+11,Hypertension,Insulin,0.45
+19,Hypertension,Painkillers,0.55
