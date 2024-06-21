@@ -1,0 +1,37 @@
+MATCH (n)
+DETACH DELETE n
+
+LOAD CSV WITH HEADERS FROM "file:///Medical_4.csv" AS row
+MERGE (d:Disease {name: row.Disease})
+MERGE (m:Medication {name: row.Medication})
+MERGE (d)-[:TREATED_BY {probability: toFloat(row.Probability)}]->(m)
+RETURN d, m
+Limit 4
+
+//Inquiry about the treatment
+MATCH (d:Disease)-[r:TREATED_BY]->(m:Medication)
+WHERE d.name = "Headache"
+RETURN m.name
+
+//Inquiry about the disease
+MATCH (d:Disease)-[r:TREATED_BY]->(m:Medication)
+WHERE m.name = "Insulin"
+RETURN d.name
+
+//Inquiry about the possibility
+MATCH (d:Disease)-[r:TREATED_BY]->(m:Medication)
+WHERE d.name = "Diabetes" AND m.name = "Insulin"
+RETURN r.probability
+
+LOAD CSV WITH HEADERS FROM "file:///Medical_4.csv" AS row
+WITH row WHERE toFloat(row.Probability) < 0.5
+MERGE (d:Disease {name: row.Disease})
+MERGE (m:Medication {name: row.Medication})
+MERGE (d)-[:TREATED_BY {probability: toFloat(row.Probability)}]->(m)
+RETURN d, m
+
+//Querying for therapeutic overlaps between diseases
+MATCH (d1:Disease)-[r1:TREATED_BY]->(m:Medication)<-[r2:TREATED_BY]-(d2:Disease)
+WHERE d1 <> d2
+RETURN d1, d2, m
+LIMIT 10
