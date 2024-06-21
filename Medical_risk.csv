@@ -1,0 +1,49 @@
+NO.,Disease,Medication,Probability,Risk_Tolerant,Risk_Averse
+1,Diabetes,Painkillers,0.75,0.7504,0.7496
+2,Arthritis,Antidepressants,0.42,0.4198,0.4202
+3,Asthma,Antibiotics,0.83,0.8304,0.8296
+4,Hypertension,Antidepressants,0.59,0.5902,0.5898
+5,Headache,Painkillers_1,0.69,0.6903,0.6897
+6,Diabetes,Insulin,0.89,0.8904,0.8896
+7,Arthritis,Anti-inflammatory Drugs,0.75,0.7504,0.7496
+8,Depression,Painkillers,0.67,0.6703,0.6697
+9,Hypertension,Insulin,0.45,0.4499,0.4501
+10,Asthma,Painkillers,0.79,0.7904,0.7896
+11,Diabetes,Antidepressants,0.68,0.6803,0.6797
+12,Arthritis,Insulin,0.72,0.7204,0.7196
+13,Asthma,Anti-inflammatory Drugs,0.63,0.6302,0.6298
+14,Depression,Antibiotics,0.58,0.5802,0.5798
+15,Hypertension,Antibiotics,0.74,0.7404,0.7396
+16,Diabetes,Anti-inflammatory Drugs,0.65,0.6503,0.6497
+17,Headache,Painkillers_2,0.72,0.7204,0.7196
+18,Depression,Insulin,0.68,0.6803,0.6797
+19,Asthma,Antidepressants,0.51,0.512,0.511
+20,Hypertension,Painkillers,0.64,0.6403,0.6397
+21,Diabetes,Antibiotics,0.72,0.7204,0.7196
+22,Headache,Antidepressants,0.49,0.492,0.491
+23,Asthma,Insulin,0.67,0.6703,0.6697
+24,Depression,Anti-inflammatory Drugs,0.74,0.7404,0.7396
+25,Anemia,Iron supplements,0.67,0.6703,0.6697
+26,Autism,Applied Behavior Analysis (ABA),0.72,0.7204,0.7196
+27,Cancer,Radiation therapy,0.11,0.1096,0.1104
+28,Cancer,Immunotherapy,0.14,0.1396,0.1404
+29,Cancer,Chemotherapy,0.28,0.2796,0.2804
+30,Bronchitis,Bronchodilators,0.64,0.6403,0.6397
+31,Bronchitis,Cough suppressants,0.58,0.5802,0.5798
+32,Bronchitis,Antibiotics,0.71,0.7104,0.7096
+33,Cardiovascular Disease,Antiplatelet medications,0.27,0.2696,0.2704
+34,Chronic Kidney Disease,Diuretics,0.77,0.7704,0.7696
+35,Chronic Fatigue Syndrome,Cognitive Behavioral Therapy (CBT),0.67,0.6703,0.6697
+37,Cerebral Palsy,Physical therapy,0.51,0.512,0.511
+38,Gout,NSAIDs,0.74,0.7404,0.7396
+39,Hepatitis,Antiviral medications,0.67,0.6703,0.6697
+40,Migraine,NSAIDs,0.67,0.6703,0.6697
+41,Muscular Dystrophy,Physical therapy,0.34,0.3397,0.3403
+43,Osteoarthritis,Acetaminophen,0.66,0.6603,0.6597
+44,Osteoarthritis,Corticosteroid injections,0.76,0.7604,0.7596
+45,Osteoarthritis,NSAIDs,0.47,0.4699,0.4701
+46,Pneumonia,Antibiotics,0.27,0.2696,0.2704
+47,Pneumonia, Bronchodilators  ,0.81,0.8104,0.8096
+48,Psoriasis,Topical corticosteroids,0.38,0.3798,0.3802
+49,Psoriasis,Topical vitamin D analogs,0.73,0.7304,0.7296
+50,Psoriasis,Phototherapy,0.79,0.7904,0.7896
