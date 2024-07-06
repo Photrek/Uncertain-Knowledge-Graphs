@@ -164,7 +164,7 @@ def calculate_probabilities():
 # Set up GUI
 root = tk.Tk()
 root.title("Knowledge Graph Query System")
-root.geometry("600x600")  # Set a fixed window size
+root.geometry("600x600") 
 
 # Set background color
 root.configure(bg='#f0f0f0')
