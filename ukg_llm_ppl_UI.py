@@ -8,12 +8,12 @@ import pyro.distributions as dist
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # Read the data from CSV
-data = pd.read_csv(r'D:\UKG_data\Medical_data\Medical_data_1\Medical_risk_1.csv')
+data = pd.read_csv(r'path and name file.csv')
 
 # Creating a directed graph for uncertain knowledge
 UKG = nx.DiGraph()
 
-# Adding nodes and edges to the graph, including probabilities
+# Adding nodes and edges to the graph
 for _, row in data.iterrows():
     UKG.add_node(row['Disease'].lower(), node_type='Disease')
     UKG.add_node(row['Medication'].lower(), node_type='Medication')
