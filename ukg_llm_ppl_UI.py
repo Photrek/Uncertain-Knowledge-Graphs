@@ -24,7 +24,7 @@ for _, row in data.iterrows():
 # Load the GPT-2 model and tokenizer
 model_name = "gpt2"
 model = AutoModelForCausalLM.from_pretrained(model_name)
-tokenizer = AutoTokenizer.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(modell_name)
 
 def calculate_joint_probability(UKG, med1, med2):
     """
